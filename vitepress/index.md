@@ -1,6 +1,4 @@
 
-<img src="assets/logo.png" width="30%">
-
 
 # 理账狮开放接口文档
 
@@ -131,12 +129,3 @@ xNBf8CcKJW1GImCiVt1LHWFb68hDOLcARrNA5rTCACY=NO9pn4tMn3aIvwX95CyxFlFzexXmzOFp1000
   "signature": "86c83642c2413fdb0d14ece56f7cee4ede78b0a8"
 }
 ```
-
-### 接口列表
-
-- [获取授权园区列表](enterprise/getList.md)
-- [获取授权园区信息](enterprise/query.md)
-- [创建支付订单](order/create.md)
-- [查询支付订单](order/query.md)
-- [订单回调](order/notify.md)
-- [查询可用任务列表](task/getList.md)

@@ -1,0 +1,52 @@
+package com.qtmtax.sdk.task;
+
+import com.qtmtax.sdk.common.base.QtmTaxClient;
+import com.qtmtax.sdk.common.base.QtmTaxConfig;
+import com.qtmtax.sdk.common.base.QtmTaxConstant;
+import com.qtmtax.sdk.common.base.QuantumTaxJson;
+import com.qtmtax.sdk.common.enums.QuantumTaxArithmetic;
+import com.qtmtax.sdk.model.task.list.TaskGetListRequest;
+import com.qtmtax.sdk.model.task.list.TaskGetListResponse;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+
+/**
+ * <h1>任务测试</h1>
+ */
+public class WorkerSaasTaskTest {
+    /**
+     * <h2>日志</h2>
+     */
+    private static final Log log = LogFactory.getLog(WorkerSaasTaskTest.class);
+
+    /**
+     * <h2>WorkerSaas客户端</h2>
+     */
+    private static final QtmTaxClient QTM_TAX_CLIENT;
+
+    static {
+        QtmTaxConfig qtmTaxConfig = QtmTaxConfig.create()
+                .setAppKey("NO9pn4tMn3aIvwX95CyxFlFzexXmzOFp")
+                .setAppSecret("xNBf8CcKJW1GImCiVt1LHWFb68hDOLcARrNA5rTCACY=")
+                .setGateway(QtmTaxConstant.GATEWAY_SANDBOX)
+                .setArithmetic(QuantumTaxArithmetic.AES);
+        QTM_TAX_CLIENT = QtmTaxClient.create(qtmTaxConfig);
+    }
+
+    public static void main(String[] args) {
+        // 获取任务列表
+        getList();
+    }
+
+    /**
+     * <h2>获取任务列表</h2>
+     */
+    private static void getList() {
+        TaskGetListRequest request = new TaskGetListRequest();
+        log.info(String.format("获取任务列表请求数据: %s", QuantumTaxJson.toString(request)));
+        TaskGetListResponse response = QTM_TAX_CLIENT.request(request);
+        log.info(String.format("获取任务列表响应数据: %s", QuantumTaxJson.toString(response.getTaskList())));
+    }
+
+}

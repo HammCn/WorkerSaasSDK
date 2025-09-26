@@ -59,11 +59,11 @@ public class WorkerSaasOrderTest {
                 .setBizAccount("13888888888")
                 .setTaskId(1L)
                 .setBalance(1D)
-                .setRealName("马建")
-                .setPhone("18523749565")
-                .setPayAccount("18523749565")
+                .setRealName("凌小云")
+                .setPhone("17666666666")
+                .setPayAccount("17666666666")
                 .setIdCardType(IdCardType.CHINA_ID_CARD)
-                .setIdCard("500240199110030157");
+                .setIdCard("50000000000");
         log.info(String.format("创建订单请求数据: %s", QuantumTaxJson.toString(request)));
         OrderCreateResponse response = QTM_TAX_CLIENT.request(request);
         log.info(String.format("创建订单响应数据: %s", QuantumTaxJson.toString(response)));

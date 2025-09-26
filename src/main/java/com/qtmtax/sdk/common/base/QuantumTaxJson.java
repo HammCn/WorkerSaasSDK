@@ -18,22 +18,22 @@ import java.util.Objects;
  */
 public class QuantumTaxJson<R extends QuantumTaxJson<R>> {
     /**
-     * <h2>错误代码</h2>
+     * 错误代码
      */
     private int code;
 
     /**
-     * <h2>错误信息</h2>
+     * 错误信息
      */
     private String message;
 
     /**
-     * <h2>响应数据</h2>
+     * 响应数据
      */
     private String data;
 
     /**
-     * <h2>获取错误代码</h2>
+     * 获取错误代码
      *
      * @return 错误代码
      */
@@ -42,7 +42,7 @@ public class QuantumTaxJson<R extends QuantumTaxJson<R>> {
     }
 
     /**
-     * <h2>设置错误代码</h2>
+     * 设置错误代码
      *
      * @param code 错误代码
      * @return 当前实例
@@ -53,7 +53,7 @@ public class QuantumTaxJson<R extends QuantumTaxJson<R>> {
     }
 
     /**
-     * <h2>获取错误信息</h2>
+     * 获取错误信息
      *
      * @return 错误信息
      */
@@ -62,7 +62,7 @@ public class QuantumTaxJson<R extends QuantumTaxJson<R>> {
     }
 
     /**
-     * <h2>设置错误信息</h2>
+     * 设置错误信息
      *
      * @param message 错误信息
      * @return 当前实例
@@ -73,7 +73,7 @@ public class QuantumTaxJson<R extends QuantumTaxJson<R>> {
     }
 
     /**
-     * <h2>获取响应数据</h2>
+     * 获取响应数据
      *
      * @return 响应数据
      */
@@ -82,7 +82,7 @@ public class QuantumTaxJson<R extends QuantumTaxJson<R>> {
     }
 
     /**
-     * <h2>设置响应数据</h2>
+     * 设置响应数据
      *
      * @param data 响应数据
      * @return 当前实例
@@ -95,7 +95,7 @@ public class QuantumTaxJson<R extends QuantumTaxJson<R>> {
     private static ObjectMapper objectMapper;
 
     /**
-     * <h2>Json反序列化到指定类</h2>
+     * Json反序列化到指定类
      *
      * @param json  字符串
      * @param clazz 目标类
@@ -111,7 +111,7 @@ public class QuantumTaxJson<R extends QuantumTaxJson<R>> {
     }
 
     /**
-     * <h2>Json反序列化到指定类</h2>
+     * Json反序列化到指定类
      *
      * @param json  字符串
      * @param clazz 目标类
@@ -127,7 +127,7 @@ public class QuantumTaxJson<R extends QuantumTaxJson<R>> {
     }
 
     /**
-     * <h2>Json序列化到字符串</h2>
+     * Json序列化到字符串
      *
      * @param object 对象
      * @return 字符串
@@ -141,7 +141,7 @@ public class QuantumTaxJson<R extends QuantumTaxJson<R>> {
     }
 
     /**
-     * <h2>获取一个配置后的ObjectMapper</h2>
+     * 获取一个配置后的ObjectMapper
      *
      * @return ObjectMapper
      */

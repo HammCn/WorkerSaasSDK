@@ -13,12 +13,12 @@ import java.util.List;
  */
 public class EnterpriseParkGetListResponse extends AbstractResponse<EnterpriseParkGetListResponse> {
     /**
-     * <h2>企业可用园区列表</h2>
+     * 企业可用园区列表
      */
     private List<EnterpriseParkModel> enterpriseParkList;
 
     /**
-     * <h2>解析数据</h2>
+     * 解析数据
      *
      * @param data 解密后的data数据
      */
@@ -28,7 +28,7 @@ public class EnterpriseParkGetListResponse extends AbstractResponse<EnterprisePa
     }
 
     /**
-     * <h2>企业可用园区列表</h2>
+     * 企业可用园区列表
      *
      * @return 企业可用园区列表
      */
@@ -37,7 +37,7 @@ public class EnterpriseParkGetListResponse extends AbstractResponse<EnterprisePa
     }
 
     /**
-     * <h2>设置企业可用园区列表</h2>
+     * 设置企业可用园区列表
      *
      * @param enterpriseParkList 企业可用园区列表
      * @return 当前实例

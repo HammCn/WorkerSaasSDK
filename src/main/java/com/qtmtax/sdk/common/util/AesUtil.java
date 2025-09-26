@@ -14,32 +14,32 @@ import static java.nio.charset.StandardCharsets.UTF_8;
  */
 public class AesUtil {
     /**
-     * <h2>AES</h2>
+     * AES
      */
     private static final String AES = "AES";
 
     /**
-     * <h2>AES/CBC/PKCS5Padding</h2>
+     * AES/CBC/PKCS5Padding
      */
     private static final String AES_CBC_PKCS5_PADDING = "AES/CBC/PKCS5Padding";
 
     /**
-     * <h2>密钥</h2>
+     * 密钥
      */
     private byte[] key;
 
     /**
-     * <h2>偏移向量</h2>
+     * 偏移向量
      */
     private static final byte[] IV = "0000000000000000".getBytes(UTF_8);
 
     /**
-     * <h2>算法</h2>
+     * 算法
      */
     private String algorithm = AES_CBC_PKCS5_PADDING;
 
     /**
-     * <h2>设置算法</h2>
+     * 设置算法
      *
      * @param algorithm 算法
      * @return 当前实例
@@ -50,7 +50,7 @@ public class AesUtil {
     }
 
     /**
-     * <h2>设置密钥</h2>
+     * 设置密钥
      *
      * @param key 密钥
      * @return 当前实例
@@ -61,7 +61,7 @@ public class AesUtil {
     }
 
     /**
-     * <h2>加密</h2>
+     * 加密
      *
      * @param source 待加密的内容
      * @return 加密后的内容
@@ -77,7 +77,7 @@ public class AesUtil {
     }
 
     /**
-     * <h2>解密</h2>
+     * 解密
      *
      * @param content 加密后的内容
      * @return 解密后的内容
@@ -93,7 +93,7 @@ public class AesUtil {
     }
 
     /**
-     * <h2>获取Cipher</h2>
+     * 获取Cipher
      *
      * @param mode 模式
      * @return Cipher
@@ -111,7 +111,7 @@ public class AesUtil {
     }
 
     /**
-     * <h2>初始化</h2>
+     * 初始化
      *
      * @return AES
      */

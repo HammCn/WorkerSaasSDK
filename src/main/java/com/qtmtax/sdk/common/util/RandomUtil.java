@@ -11,27 +11,27 @@ import java.util.stream.IntStream;
  */
 public class RandomUtil {
     /**
-     * <h2>小写字母</h2>
+     * 小写字母
      */
     private static final String BASE_CHAR = "abcdefghijklmnopqrstuvwxyz";
 
     /**
-     * <h2>数字</h2>
+     * 数字
      */
     private static final String BASE_NUMBER = "0123456789";
 
     /**
-     * <h2>小写字母和数字</h2>
+     * 小写字母和数字
      */
     private static final String BASE_CHAR_NUMBER_LOWER = BASE_CHAR + BASE_NUMBER;
 
     /**
-     * <h2>大写和小写字母</h2>
+     * 大写和小写字母
      */
     private static final String BASE_CHAR_NUMBER = BASE_CHAR.toUpperCase() + BASE_CHAR_NUMBER_LOWER;
 
     /**
-     * <h2>获取32位随机字符串</h2>
+     * 获取32位随机字符串
      *
      * @return 随机字符串
      */
@@ -40,7 +40,7 @@ public class RandomUtil {
     }
 
     /**
-     * <h2>获取指定位数的随机字符串</h2>
+     * 获取指定位数的随机字符串
      *
      * @param length 字符串的长度
      * @return 随机字符串
@@ -50,7 +50,7 @@ public class RandomUtil {
     }
 
     /**
-     * <h2>获取随机数字的字符串</h2>
+     * 获取随机数字的字符串
      *
      * @param length 字符串的长度
      * @return 随机字符串
@@ -60,7 +60,7 @@ public class RandomUtil {
     }
 
     /**
-     * <h2>获取指定样本的随机字符串</h2>
+     * 获取指定样本的随机字符串
      *
      * @param baseString 随机字符选取的样本
      * @param length     字符串的长度
@@ -76,7 +76,7 @@ public class RandomUtil {
     }
 
     /**
-     * <h2>获取一个随机整数</h2>
+     * 获取一个随机整数
      *
      * @return 随机数
      * @see java.util.Random#nextInt()
@@ -86,7 +86,7 @@ public class RandomUtil {
     }
 
     /**
-     * <h2>获得指定范围内的随机数</h2>
+     * 获得指定范围内的随机数
      *
      * @param exclude 排除的数字
      * @return 随机数
@@ -96,7 +96,7 @@ public class RandomUtil {
     }
 
     /**
-     * <h2>获得指定范围内的随机数</h2>
+     * 获得指定范围内的随机数
      *
      * @param minInclude 最小数（包含）
      * @param maxExclude 最大数（不包含）
@@ -107,7 +107,7 @@ public class RandomUtil {
     }
 
     /**
-     * <h2>获得指定范围内的随机数</h2>
+     * 获得指定范围内的随机数
      *
      * @param min        最小数
      * @param max        最大数
@@ -126,7 +126,7 @@ public class RandomUtil {
     }
 
     /**
-     * <h2>获得随机数种子</h2>
+     * 获得随机数种子
      *
      * @return 随机种子
      */

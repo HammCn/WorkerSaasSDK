@@ -9,27 +9,27 @@ import com.qtmtax.sdk.common.interfaces.IDictionary;
  */
 public enum IdCardType implements IDictionary {
     /**
-     * <h2>中华人民共和国身份证</h2>
+     * 中华人民共和国身份证
      */
     CHINA_ID_CARD(1, "中华人民共和国身份证"),
 
     /**
-     * <h2>护照</h2>
+     * 护照
      */
     PASSPORT(2, "护照"),
 
     /**
-     * <h2>港澳通行证</h2>
+     * 港澳通行证
      */
     HONG_KONG_AND_MACAO_PASSPORT(3, "港澳通行证"),
 
     /**
-     * <h2>台湾通行证</h2>
+     * 台湾通行证
      */
     TAIWAN_PASSPORT(4, "台湾通行证"),
 
     /**
-     * <h2>中华人民共和国外国人永久居留身份证</h2>
+     * 中华人民共和国外国人永久居留身份证
      */
     FOREIGNER_PERMANENT_RESIDENCE_ID_CARD(5, "中华人民共和国外国人永久居留身份证");
 

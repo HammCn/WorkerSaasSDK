@@ -10,39 +10,39 @@ import com.qtmtax.sdk.common.enums.QuantumTaxArithmetic;
  */
 public class QtmTaxConfig {
     /**
-     * <h2>禁止外部实例化</h2>
+     * 禁止外部实例化
      */
     private QtmTaxConfig() {
 
     }
 
     /**
-     * <h2>网关地址</h2>
+     * 网关地址
      */
     private String gateway = QtmTaxConstant.GATEWAY_PRODUCTION;
 
     /**
-     * <h2>AppKey</h2>
+     * AppKey
      */
     private String appKey;
 
     /**
-     * <h2>AppSecret</h2>
+     * AppSecret
      */
     private String appSecret;
 
     /**
-     * <h2>加密方式</h2>
+     * 加密方式
      */
     private QuantumTaxArithmetic arithmetic = QuantumTaxArithmetic.AES;
 
     /**
-     * <h2>公钥</h2>
+     * 公钥
      */
     private String publicKey;
 
     /**
-     * <h2>获取AppKey</h2>
+     * 获取AppKey
      *
      * @return AppKey
      */
@@ -51,7 +51,7 @@ public class QtmTaxConfig {
     }
 
     /**
-     * <h2>设置AppKey</h2>
+     * 设置AppKey
      *
      * @param appKey AppKey
      * @return 当前实例
@@ -62,7 +62,7 @@ public class QtmTaxConfig {
     }
 
     /**
-     * <h2>获取AppSecret</h2>
+     * 获取AppSecret
      *
      * @return AppSecret
      */
@@ -71,7 +71,7 @@ public class QtmTaxConfig {
     }
 
     /**
-     * <h2>设置AppSecret</h2>
+     * 设置AppSecret
      *
      * @param appSecret AppSecret
      * @return 当前实例
@@ -82,7 +82,7 @@ public class QtmTaxConfig {
     }
 
     /**
-     * <h2>获取加密方式</h2>
+     * 获取加密方式
      *
      * @return 加密方式
      */
@@ -91,7 +91,7 @@ public class QtmTaxConfig {
     }
 
     /**
-     * <h2>设置加密方式</h2>
+     * 设置加密方式
      *
      * @param arithmetic 加密方式
      * @return 当前实例
@@ -102,7 +102,7 @@ public class QtmTaxConfig {
     }
 
     /**
-     * <h2>获取公钥</h2>
+     * 获取公钥
      *
      * @return 公钥
      */
@@ -111,7 +111,7 @@ public class QtmTaxConfig {
     }
 
     /**
-     * <h2>设置公钥</h2>
+     * 设置公钥
      *
      * @param publicKey 公钥
      * @return 当前实例
@@ -122,7 +122,7 @@ public class QtmTaxConfig {
     }
 
     /**
-     * <h2>创建当前实例</h2>
+     * 创建当前实例
      *
      * @return 创建一个当前实例
      */
@@ -131,7 +131,7 @@ public class QtmTaxConfig {
     }
 
     /**
-     * <h2>获取网关地址</h2>
+     * 获取网关地址
      *
      * @return 网关地址
      */
@@ -140,7 +140,7 @@ public class QtmTaxConfig {
     }
 
     /**
-     * <h2>设置网关地址</h2>
+     * 设置网关地址
      *
      * @param gateway 网关地址
      * @return 当前实例
@@ -151,12 +151,12 @@ public class QtmTaxConfig {
     }
 
     /**
-     * <h2>调试模式</h2>
+     * 调试模式
      */
     private boolean debug = true;
 
     /**
-     * <h2>是否调试模式</h2>
+     * 是否调试模式
      *
      * @return 调试模式
      */
@@ -165,7 +165,7 @@ public class QtmTaxConfig {
     }
 
     /**
-     * <h2>设置调试模式</h2>
+     * 设置调试模式
      *
      * @param debug 调试模式
      * @return 当前实例

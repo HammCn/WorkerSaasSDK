@@ -11,12 +11,12 @@ import com.qtmtax.sdk.model.order.OrderModel;
  */
 public class OrderQueryResponse extends AbstractResponse<OrderQueryResponse> {
     /**
-     * <h2>订单模型</h2>
+     * 订单模型
      */
     private OrderModel order;
 
     /**
-     * <h2>解析数据</h2>
+     * 解析数据
      *
      * @param data 解密后的data数据
      */
@@ -26,7 +26,7 @@ public class OrderQueryResponse extends AbstractResponse<OrderQueryResponse> {
     }
 
     /**
-     * <h2>获取订单模型</h2>
+     * 获取订单模型
      *
      * @return 订单模型
      */
@@ -35,7 +35,7 @@ public class OrderQueryResponse extends AbstractResponse<OrderQueryResponse> {
     }
 
     /**
-     * <h2>设置订单模型</h2>
+     * 设置订单模型
      *
      * @param order 订单模型
      * @return 当前实例

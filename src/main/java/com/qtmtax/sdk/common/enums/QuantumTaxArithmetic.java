@@ -7,17 +7,17 @@ package com.qtmtax.sdk.common.enums;
  */
 public enum QuantumTaxArithmetic {
     /**
-     * <h2>AES算法</h2>
+     * AES算法
      */
     AES,
 
     /**
-     * <h2>RSA算法</h2>
+     * RSA算法
      */
     RSA,
 
     /**
-     * <h2>不加密</h2>
+     * 不加密
      */
     NO
 }

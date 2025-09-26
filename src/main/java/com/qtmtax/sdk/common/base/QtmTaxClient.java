@@ -16,18 +16,18 @@ import java.util.Objects;
  */
 public class QtmTaxClient {
     /**
-     * <h2>禁止外部实例化</h2>
+     * 禁止外部实例化
      */
     private QtmTaxClient() {
     }
 
     /**
-     * <h2>配置</h2>
+     * 配置
      */
     private QtmTaxConfig qtmTaxConfig;
 
     /**
-     * <h2>发起请求</h2>
+     * 发起请求
      *
      * @param request 请求对象
      * @return 响应对象
@@ -37,7 +37,7 @@ public class QtmTaxClient {
     }
 
     /**
-     * <h2>解密</h2>
+     * 解密
      *
      * @param content     加密后的数据
      * @param targetClass 目标类
@@ -59,7 +59,7 @@ public class QtmTaxClient {
     }
 
     /**
-     * <h2>解密</h2>
+     * 解密
      *
      * @param content 加密后的数据
      * @return 解密后的字符串
@@ -83,7 +83,7 @@ public class QtmTaxClient {
     }
 
     /**
-     * <h2>加密</h2>
+     * 加密
      *
      * @param request 请求对象
      * @return 加密后的内容
@@ -96,7 +96,7 @@ public class QtmTaxClient {
     }
 
     /**
-     * <h2>加密</h2>
+     * 加密
      *
      * @param content 需要加密的字符串
      * @return 加密后的内容
@@ -120,7 +120,7 @@ public class QtmTaxClient {
     }
 
     /**
-     * <h2>创建Client</h2>
+     * 创建Client
      *
      * @param qtmTaxConfig 应用
      * @return Client
@@ -136,7 +136,7 @@ public class QtmTaxClient {
     }
 
     /**
-     * <h2>发起请求</h2>
+     * 发起请求
      *
      * @param request 请求对象
      * @param <RES>   响应类型
@@ -163,7 +163,7 @@ public class QtmTaxClient {
     }
 
     /**
-     * <h2>获取通知的请求内容</h2>
+     * 获取通知的请求内容
      *
      * @param json 通知内容
      * @return 请求内容
@@ -178,7 +178,7 @@ public class QtmTaxClient {
     }
 
     /**
-     * <h2>获取通知的订单信息</h2>
+     * 获取通知的订单信息
      *
      * @param json 通知内容
      * @return 订单信息

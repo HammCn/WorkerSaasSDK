@@ -21,12 +21,12 @@ import org.apache.commons.logging.LogFactory;
 public class WorkerSaasOrderTest {
 
     /**
-     * <h2>日志</h2>
+     * 日志
      */
     private static final Log log = LogFactory.getLog(WorkerSaasOrderTest.class);
 
     /**
-     * <h2>WorkerSaas客户端</h2>
+     * WorkerSaas客户端
      */
     private static final QtmTaxClient QTM_TAX_CLIENT;
 
@@ -48,7 +48,7 @@ public class WorkerSaasOrderTest {
     }
 
     /**
-     * <h2>创建订单</h2>
+     * 创建订单
      *
      * @return 外部订单号
      */
@@ -61,6 +61,7 @@ public class WorkerSaasOrderTest {
                 .setBalance(1D)
                 .setRealName("凌小云")
                 .setPhone("17666666666")
+                .setReason("服务费")
                 .setPayAccount("17666666666")
                 .setIdCardType(IdCardType.CHINA_ID_CARD)
                 .setIdCard("50000000000");
@@ -71,7 +72,7 @@ public class WorkerSaasOrderTest {
     }
 
     /**
-     * <h2>查询订单</h2>
+     * 查询订单
      *
      * @param outerTradeNo 外部订单号
      */

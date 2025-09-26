@@ -10,14 +10,14 @@ import java.lang.reflect.ParameterizedType;
  */
 public abstract class AbstractRequest<R extends AbstractResponse<R>> {
     /**
-     * <h2>API地址</h2>
+     * API地址
      *
      * @return API地址
      */
     protected abstract String getApiUrl();
 
     /**
-     * <h2>获取响应类</h2>
+     * 获取响应类
      *
      * @return 类
      */

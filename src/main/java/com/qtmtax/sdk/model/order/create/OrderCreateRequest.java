@@ -10,7 +10,7 @@ import com.qtmtax.sdk.enums.IdCardType;
  */
 public class OrderCreateRequest extends AbstractRequest<OrderCreateResponse> {
     /**
-     * <h2>API地址</h2>
+     * API地址
      *
      * @return API地址
      */
@@ -20,57 +20,57 @@ public class OrderCreateRequest extends AbstractRequest<OrderCreateResponse> {
     }
 
     /**
-     * <h2>外部订单号</h2>
+     * 外部订单号
      */
     private String outerTradeNo;
 
     /**
-     * <h2>真实姓名</h2>
+     * 真实姓名
      */
     private String realName;
 
     /**
-     * <h2>手机号</h2>
+     * 手机号
      */
     private String phone;
 
     /**
-     * <h2>证件号</h2>
+     * 证件号
      */
     private String idCard;
 
     /**
-     * <h2>证件类型</h2>
+     * 证件类型
      */
     private Integer idCardType = IdCardType.CHINA_ID_CARD.getKey();
 
     /**
-     * <h2>支付账号</h2>
+     * 支付账号
      */
     private String payAccount;
 
     /**
-     * <h2>银行摘要</h2>
+     * 银行摘要
      */
     private String reason;
 
     /**
-     * <h2>业务账号</h2>
+     * 业务账号
      */
     private String bizAccount;
 
     /**
-     * <h2>操作金额</h2>
+     * 操作金额
      */
     private Double balance;
 
     /**
-     * <h2>任务ID</h2>
+     * 任务ID
      */
     private Long taskId;
 
     /**
-     * <h2>外部订单号</h2>
+     * 外部订单号
      *
      * @return 外部订单号
      */
@@ -79,7 +79,7 @@ public class OrderCreateRequest extends AbstractRequest<OrderCreateResponse> {
     }
 
     /**
-     * <h2>设置外部订单号</h2>
+     * 设置外部订单号
      *
      * @param outerTradeNo 外部订单号
      * @return 当前实例
@@ -90,7 +90,7 @@ public class OrderCreateRequest extends AbstractRequest<OrderCreateResponse> {
     }
 
     /**
-     * <h2>真实姓名</h2>
+     * 真实姓名
      *
      * @return 真实姓名
      */
@@ -99,7 +99,7 @@ public class OrderCreateRequest extends AbstractRequest<OrderCreateResponse> {
     }
 
     /**
-     * <h2>设置真实姓名</h2>
+     * 设置真实姓名
      *
      * @param realName 真实姓名
      * @return 当前实例
@@ -110,7 +110,7 @@ public class OrderCreateRequest extends AbstractRequest<OrderCreateResponse> {
     }
 
     /**
-     * <h2>手机号</h2>
+     * 手机号
      *
      * @return 手机号
      */
@@ -119,7 +119,7 @@ public class OrderCreateRequest extends AbstractRequest<OrderCreateResponse> {
     }
 
     /**
-     * <h2>设置手机号</h2>
+     * 设置手机号
      *
      * @param phone 手机号
      * @return 当前实例
@@ -130,7 +130,7 @@ public class OrderCreateRequest extends AbstractRequest<OrderCreateResponse> {
     }
 
     /**
-     * <h2>证件号</h2>
+     * 证件号
      *
      * @return 证件号
      */
@@ -139,7 +139,7 @@ public class OrderCreateRequest extends AbstractRequest<OrderCreateResponse> {
     }
 
     /**
-     * <h2>设置证件号</h2>
+     * 设置证件号
      *
      * @param idCard 证件号
      * @return 当前实例
@@ -150,7 +150,7 @@ public class OrderCreateRequest extends AbstractRequest<OrderCreateResponse> {
     }
 
     /**
-     * <h2>证件类型</h2>
+     * 证件类型
      *
      * @return 证件类型
      */
@@ -159,7 +159,7 @@ public class OrderCreateRequest extends AbstractRequest<OrderCreateResponse> {
     }
 
     /**
-     * <h2>设置证件类型</h2>
+     * 设置证件类型
      *
      * @param idCardType 证件类型
      * @return 当前实例
@@ -170,7 +170,7 @@ public class OrderCreateRequest extends AbstractRequest<OrderCreateResponse> {
     }
 
     /**
-     * <h2>支付账号</h2>
+     * 支付账号
      *
      * @return 支付账号
      */
@@ -179,7 +179,7 @@ public class OrderCreateRequest extends AbstractRequest<OrderCreateResponse> {
     }
 
     /**
-     * <h2>设置支付账号</h2>
+     * 设置支付账号
      *
      * @param payAccount 支付账号
      * @return 当前实例
@@ -190,14 +190,14 @@ public class OrderCreateRequest extends AbstractRequest<OrderCreateResponse> {
     }
 
     /**
-     * <h2>银行摘要</h2>
+     * 银行摘要
      */
     public String getReason() {
         return reason;
     }
 
     /**
-     * <h2>设置银行摘要</h2>
+     * 设置银行摘要
      *
      * @param reason 银行摘要
      * @return 当前实例
@@ -208,7 +208,7 @@ public class OrderCreateRequest extends AbstractRequest<OrderCreateResponse> {
     }
 
     /**
-     * <h2>业务账号</h2>
+     * 业务账号
      *
      * @return 业务账号
      */
@@ -217,7 +217,7 @@ public class OrderCreateRequest extends AbstractRequest<OrderCreateResponse> {
     }
 
     /**
-     * <h2>设置业务账号</h2>
+     * 设置业务账号
      *
      * @param bizAccount 业务账号
      * @return 当前实例
@@ -228,7 +228,7 @@ public class OrderCreateRequest extends AbstractRequest<OrderCreateResponse> {
     }
 
     /**
-     * <h2>操作金额</h2>
+     * 操作金额
      *
      * @return 操作金额
      */
@@ -237,7 +237,7 @@ public class OrderCreateRequest extends AbstractRequest<OrderCreateResponse> {
     }
 
     /**
-     * <h2>设置操作金额</h2>
+     * 设置操作金额
      *
      * @param balance 操作金额
      * @return 当前实例
@@ -248,7 +248,7 @@ public class OrderCreateRequest extends AbstractRequest<OrderCreateResponse> {
     }
 
     /**
-     * <h2>任务ID</h2>
+     * 任务ID
      *
      * @return 任务ID
      */
@@ -257,7 +257,7 @@ public class OrderCreateRequest extends AbstractRequest<OrderCreateResponse> {
     }
 
     /**
-     * <h2>设置任务ID</h2>
+     * 设置任务ID
      *
      * @param taskId 任务ID
      * @return 当前实例

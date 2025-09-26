@@ -13,22 +13,22 @@ import java.util.Base64;
  */
 public class RsaUtil {
     /**
-     * <h2>加密算法KEY长度</h2>
+     * 加密算法KEY长度
      */
     private static final int CRYPT_KEY_SIZE = 2048;
 
     /**
-     * <h2>加密方式</h2>
+     * 加密方式
      */
     private static final String CRYPT_METHOD = "RSA";
 
     /**
-     * <h2>公钥</h2>
+     * 公钥
      */
     private String publicKey;
 
     /**
-     * <h2>初始化</h2>
+     * 初始化
      *
      * @return RSA
      */
@@ -37,7 +37,7 @@ public class RsaUtil {
     }
 
     /**
-     * <h2>设置公钥</h2>
+     * 设置公钥
      *
      * @param publicKey 公钥
      * @return 当前实例
@@ -48,7 +48,7 @@ public class RsaUtil {
     }
 
     /**
-     * <h2>公钥加密</h2>
+     * 公钥加密
      *
      * @param sourceContent 原文
      * @return 密文
@@ -64,7 +64,7 @@ public class RsaUtil {
     }
 
     /**
-     * <h2>公钥解密</h2>
+     * 公钥解密
      *
      * @param encryptedContent 密文
      * @return 原文
@@ -80,7 +80,7 @@ public class RsaUtil {
     }
 
     /**
-     * <h2>公私钥解密</h2>
+     * 公私钥解密
      *
      * @param encryptedContent 密文
      * @param key              公私钥
@@ -98,7 +98,7 @@ public class RsaUtil {
     }
 
     /**
-     * <h2>公私钥加密</h2>
+     * 公私钥加密
      *
      * @param sourceContent 明文
      * @param key           公私钥
@@ -116,7 +116,7 @@ public class RsaUtil {
     }
 
     /**
-     * <h2>获取一个公钥</h2>
+     * 获取一个公钥
      *
      * @param publicKeyString 公钥字符串
      * @return 公钥
@@ -129,7 +129,7 @@ public class RsaUtil {
     }
 
     /**
-     * <h2>RSA处理方法</h2>
+     * RSA处理方法
      *
      * @param cipher      RSA实例
      * @param sourceBytes 加解密原始数据

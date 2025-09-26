@@ -10,27 +10,27 @@ import com.qtmtax.sdk.model.enterprise.EnterpriseParkModel;
 public class TaskModel {
 
     /**
-     * <h2>任务ID</h2>
+     * 任务ID
      */
     private Long id;
 
     /**
-     * <h2>任务名称</h2>
+     * 任务名称
      */
     private String name;
 
     /**
-     * <h2>项目ID</h2>
+     * 项目ID
      */
     private String project;
 
     /**
-     * <h2>企业园区</h2>
+     * 企业园区
      */
     private EnterpriseParkModel enterprisePark;
 
     /**
-     * <h2>获取任务ID</h2>
+     * 获取任务ID
      *
      * @return 任务ID
      */
@@ -39,7 +39,7 @@ public class TaskModel {
     }
 
     /**
-     * <h2>设置任务ID</h2>
+     * 设置任务ID
      *
      * @param id 任务ID
      */
@@ -48,7 +48,7 @@ public class TaskModel {
     }
 
     /**
-     * <h2>获取任务名称</h2>
+     * 获取任务名称
      *
      * @return 任务名称
      */
@@ -57,7 +57,7 @@ public class TaskModel {
     }
 
     /**
-     * <h2>设置任务名称</h2>
+     * 设置任务名称
      *
      * @param name 任务名称
      */
@@ -66,7 +66,7 @@ public class TaskModel {
     }
 
     /**
-     * <h2>获取项目ID</h2>
+     * 获取项目ID
      *
      * @return 项目ID
      */
@@ -75,7 +75,7 @@ public class TaskModel {
     }
 
     /**
-     * <h2>设置项目ID</h2>
+     * 设置项目ID
      *
      * @param project 项目ID
      */
@@ -84,7 +84,7 @@ public class TaskModel {
     }
 
     /**
-     * <h2>获取企业园区</h2>
+     * 获取企业园区
      *
      * @return 企业园区
      */
@@ -93,7 +93,7 @@ public class TaskModel {
     }
 
     /**
-     * <h2>设置企业园区</h2>
+     * 设置企业园区
      *
      * @param enterprisePark 企业园区
      */

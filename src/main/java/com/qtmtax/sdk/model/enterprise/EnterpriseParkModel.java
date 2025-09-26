@@ -9,27 +9,27 @@ import com.qtmtax.sdk.model.enterprise.park.ParkModel;
  */
 public class EnterpriseParkModel {
     /**
-     * <h2>企业园区ID</h2>
+     * 企业园区ID
      */
     private Long id;
 
     /**
-     * <h2>服务费率</h2>
+     * 服务费率
      */
     private Double serviceRatio;
 
     /**
-     * <h2>当前余额</h2>
+     * 当前余额
      */
     private Double balance;
 
     /**
-     * <h2>园区信息</h2>
+     * 园区信息
      */
     private ParkModel park;
 
     /**
-     * <h2>企业园区ID</h2>
+     * 企业园区ID
      *
      * @return 企业园区ID
      */
@@ -38,7 +38,7 @@ public class EnterpriseParkModel {
     }
 
     /**
-     * <h2>企业园区ID</h2>
+     * 企业园区ID
      *
      * @param id 企业园区ID
      */
@@ -47,7 +47,7 @@ public class EnterpriseParkModel {
     }
 
     /**
-     * <h2>服务费率</h2>
+     * 服务费率
      *
      * @return 服务费率
      */
@@ -56,7 +56,7 @@ public class EnterpriseParkModel {
     }
 
     /**
-     * <h2>服务费率</h2>
+     * 服务费率
      *
      * @param serviceRatio 服务费率
      */
@@ -65,7 +65,7 @@ public class EnterpriseParkModel {
     }
 
     /**
-     * <h2>当前余额</h2>
+     * 当前余额
      *
      * @return 当前余额
      */
@@ -74,7 +74,7 @@ public class EnterpriseParkModel {
     }
 
     /**
-     * <h2>当前余额</h2>
+     * 当前余额
      *
      * @param balance 当前余额
      */
@@ -83,7 +83,7 @@ public class EnterpriseParkModel {
     }
 
     /**
-     * <h2>园区信息</h2>
+     * 园区信息
      *
      * @return 园区信息
      */
@@ -92,7 +92,7 @@ public class EnterpriseParkModel {
     }
 
     /**
-     * <h2>园区信息</h2>
+     * 园区信息
      *
      * @param park 园区信息
      */

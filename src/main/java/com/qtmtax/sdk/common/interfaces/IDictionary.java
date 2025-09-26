@@ -7,21 +7,21 @@ package com.qtmtax.sdk.common.interfaces;
  */
 public interface IDictionary {
     /**
-     * <h2>获取枚举的key</h2>
+     * 获取枚举的key
      *
      * @return key
      */
     int getKey();
 
     /**
-     * <h2>获取枚举的描述</h2>
+     * 获取枚举的描述
      *
      * @return 描述
      */
     String getLabel();
 
     /**
-     * <h2>判断Key是否相等</h2>
+     * 判断Key是否相等
      *
      * @param key 被判断的Key
      * @return 对比结果
@@ -31,7 +31,7 @@ public interface IDictionary {
     }
 
     /**
-     * <h2>判断Key是否不相等</h2>
+     * 判断Key是否不相等
      *
      * @param key 被判断的Key
      * @return 对比结果

@@ -9,12 +9,12 @@ import com.qtmtax.sdk.common.enums.QuantumTaxErrorCode;
  */
 public class QtmTaxException extends RuntimeException {
     /**
-     * <h2>状态码</h2>
+     * 状态码
      */
     private int code = QuantumTaxErrorCode.SERVICE_ERROR.getCode();
 
     /**
-     * <h2>获取状态码</h2>
+     * 获取状态码
      *
      * @return 状态码
      */
@@ -23,7 +23,7 @@ public class QtmTaxException extends RuntimeException {
     }
 
     /**
-     * <h2>设置状态码</h2>
+     * 设置状态码
      *
      * @param code 状态码
      */
@@ -32,7 +32,7 @@ public class QtmTaxException extends RuntimeException {
     }
 
     /**
-     * <h2>异常</h2>
+     * 异常
      *
      * @param code    状态码
      * @param message 错误信息
@@ -43,7 +43,7 @@ public class QtmTaxException extends RuntimeException {
     }
 
     /**
-     * <h2>异常</h2>
+     * 异常
      *
      * @param message 错误信息
      */

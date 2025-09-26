@@ -7,22 +7,22 @@ package com.qtmtax.sdk.model.enterprise.park;
  */
 public class ParkModel {
     /**
-     * <h2>园区ID</h2>
+     * 园区ID
      */
     private Long id;
 
     /**
-     * <h2>园区名称</h2>
+     * 园区名称
      */
     private String name;
 
     /**
-     * <h2>统一信用代码</h2>
+     * 统一信用代码
      */
     private String code;
 
     /**
-     * <h2>获取园区ID</h2>
+     * 获取园区ID
      *
      * @return 园区ID
      */
@@ -31,7 +31,7 @@ public class ParkModel {
     }
 
     /**
-     * <h2>设置园区ID</h2>
+     * 设置园区ID
      *
      * @param id 园区ID
      */
@@ -40,7 +40,7 @@ public class ParkModel {
     }
 
     /**
-     * <h2>获取园区名称</h2>
+     * 获取园区名称
      *
      * @return 园区名称
      */
@@ -49,7 +49,7 @@ public class ParkModel {
     }
 
     /**
-     * <h2>设置园区名称</h2>
+     * 设置园区名称
      *
      * @param name 园区名称
      */
@@ -58,7 +58,7 @@ public class ParkModel {
     }
 
     /**
-     * <h2>获取统一信用代码</h2>
+     * 获取统一信用代码
      *
      * @return 统一信用代码
      */
@@ -67,7 +67,7 @@ public class ParkModel {
     }
 
     /**
-     * <h2>设置统一信用代码</h2>
+     * 设置统一信用代码
      *
      * @param code 统一信用代码
      */

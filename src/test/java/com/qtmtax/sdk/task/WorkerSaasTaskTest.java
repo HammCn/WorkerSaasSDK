@@ -16,12 +16,12 @@ import org.apache.commons.logging.LogFactory;
  */
 public class WorkerSaasTaskTest {
     /**
-     * <h2>日志</h2>
+     * 日志
      */
     private static final Log log = LogFactory.getLog(WorkerSaasTaskTest.class);
 
     /**
-     * <h2>WorkerSaas客户端</h2>
+     * WorkerSaas客户端
      */
     private static final QtmTaxClient QTM_TAX_CLIENT;
 
@@ -40,7 +40,7 @@ public class WorkerSaasTaskTest {
     }
 
     /**
-     * <h2>获取任务列表</h2>
+     * 获取任务列表
      */
     private static void getList() {
         TaskGetListRequest request = new TaskGetListRequest();

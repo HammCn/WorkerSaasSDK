@@ -1,18 +1,18 @@
 package com.qtmtax.sdk.common.util;
 
 /**
- * <h2>DebugUtil</h2>
+ * DebugUtil
  *
  * @author Hamm.cn
  */
 public class DebugUtil {
     /**
-     * <h2>调试模式</h2>
+     * 调试模式
      */
     public static boolean debug = true;
 
     /**
-     * <h2>显示日志</h2>
+     * 显示日志
      *
      * @param log 日志
      */

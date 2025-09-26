@@ -14,12 +14,12 @@ import java.util.List;
 public class TaskGetListResponse extends AbstractResponse<TaskGetListResponse> {
 
     /**
-     * <h2>任务列表</h2>
+     * 任务列表
      */
     private List<TaskModel> taskList;
 
     /**
-     * <h2>解析数据</h2>
+     * 解析数据
      *
      * @param data 解密后的data数据
      */
@@ -29,7 +29,7 @@ public class TaskGetListResponse extends AbstractResponse<TaskGetListResponse> {
     }
 
     /**
-     * <h2>获取任务列表</h2>
+     * 获取任务列表
      *
      * @return 任务列表
      */
@@ -38,7 +38,7 @@ public class TaskGetListResponse extends AbstractResponse<TaskGetListResponse> {
     }
 
     /**
-     * <h2>设置任务列表</h2>
+     * 设置任务列表
      *
      * @param taskList 任务列表
      * @return 当前实例

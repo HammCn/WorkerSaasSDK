@@ -9,7 +9,7 @@ import com.qtmtax.sdk.common.base.AbstractRequest;
  */
 public class OrderQueryRequest extends AbstractRequest<OrderQueryResponse> {
     /**
-     * <h2>API地址</h2>
+     * API地址
      *
      * @return API地址
      */
@@ -19,12 +19,12 @@ public class OrderQueryRequest extends AbstractRequest<OrderQueryResponse> {
     }
 
     /**
-     * <h2>外部订单号</h2>
+     * 外部订单号
      */
     private String outerTradeNo;
 
     /**
-     * <h2>外部订单号</h2>
+     * 外部订单号
      *
      * @return 外部订单号
      */
@@ -33,7 +33,7 @@ public class OrderQueryRequest extends AbstractRequest<OrderQueryResponse> {
     }
 
     /**
-     * <h2>设置外部订单号</h2>
+     * 设置外部订单号
      *
      * @param outerTradeNo 外部订单号
      * @return 当前实例

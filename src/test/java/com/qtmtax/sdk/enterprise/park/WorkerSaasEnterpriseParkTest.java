@@ -22,12 +22,12 @@ import java.util.List;
  */
 public class WorkerSaasEnterpriseParkTest {
     /**
-     * <h2>日志</h2>
+     * 日志
      */
     private static final Log log = LogFactory.getLog(WorkerSaasEnterpriseParkTest.class);
 
     /**
-     * <h2>WorkerSaas客户端</h2>
+     * WorkerSaas客户端
      */
     private static final QtmTaxClient client;
 
@@ -50,7 +50,7 @@ public class WorkerSaasEnterpriseParkTest {
     }
 
     /**
-     * <h2>获取企业园区列表</h2>
+     * 获取企业园区列表
      */
     private static List<EnterpriseParkModel> getList() {
         EnterpriseParkGetListRequest request = new EnterpriseParkGetListRequest();

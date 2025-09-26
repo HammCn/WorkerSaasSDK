@@ -9,7 +9,7 @@ import com.qtmtax.sdk.common.base.AbstractRequest;
  */
 public class TaskGetListRequest extends AbstractRequest<TaskGetListResponse> {
     /**
-     * <h2>API地址</h2>
+     * API地址
      *
      * @return API地址
      */

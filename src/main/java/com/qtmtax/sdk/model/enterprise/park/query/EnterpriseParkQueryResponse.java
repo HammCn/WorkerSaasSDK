@@ -11,12 +11,12 @@ import com.qtmtax.sdk.model.enterprise.EnterpriseParkModel;
  */
 public class EnterpriseParkQueryResponse extends AbstractResponse<EnterpriseParkQueryResponse> {
     /**
-     * <h2>企业可用园区</h2>
+     * 企业可用园区
      */
     private EnterpriseParkModel enterprisePark;
 
     /**
-     * <h2>解析数据</h2>
+     * 解析数据
      *
      * @param data 解密后的data数据
      */
@@ -26,7 +26,7 @@ public class EnterpriseParkQueryResponse extends AbstractResponse<EnterprisePark
     }
 
     /**
-     * <h2>企业可用园区</h2>
+     * 企业可用园区
      *
      * @return 企业可用园区
      */
@@ -35,7 +35,7 @@ public class EnterpriseParkQueryResponse extends AbstractResponse<EnterprisePark
     }
 
     /**
-     * <h2>设置企业可用园区</h2>
+     * 设置企业可用园区
      *
      * @param enterprisePark 企业可用园区
      * @return 当前实例

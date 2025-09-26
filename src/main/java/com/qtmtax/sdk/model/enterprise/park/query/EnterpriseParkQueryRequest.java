@@ -9,7 +9,7 @@ import com.qtmtax.sdk.common.base.AbstractRequest;
  */
 public class EnterpriseParkQueryRequest extends AbstractRequest<EnterpriseParkQueryResponse> {
     /**
-     * <h2>API地址</h2>
+     * API地址
      *
      * @return API地址
      */
@@ -19,12 +19,12 @@ public class EnterpriseParkQueryRequest extends AbstractRequest<EnterpriseParkQu
     }
 
     /**
-     * <h2>企业园区ID</h2>
+     * 企业园区ID
      */
     private Long id;
 
     /**
-     * <h2>企业园区ID</h2>
+     * 企业园区ID
      *
      * @return 企业园区ID
      */
@@ -33,7 +33,7 @@ public class EnterpriseParkQueryRequest extends AbstractRequest<EnterpriseParkQu
     }
 
     /**
-     * <h2>设置企业园区ID</h2>
+     * 设置企业园区ID
      *
      * @param id 当前实例
      * @return 当前实例

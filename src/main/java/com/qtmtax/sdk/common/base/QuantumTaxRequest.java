@@ -11,12 +11,12 @@ import org.apache.commons.codec.digest.DigestUtils;
  */
 public class QuantumTaxRequest {
     /**
-     * <h2>AppKey</h2>
+     * AppKey
      */
     private String appKey;
 
     /**
-     * <h2>设置AppKey</h2>
+     * 设置AppKey
      *
      * @param appKey AppKey
      * @return 当前实例
@@ -27,7 +27,7 @@ public class QuantumTaxRequest {
     }
 
     /**
-     * <h2>获取AppKey</h2>
+     * 获取AppKey
      *
      * @return AppKey
      */
@@ -36,12 +36,12 @@ public class QuantumTaxRequest {
     }
 
     /**
-     * <h2>版本号</h2>
+     * 版本号
      */
     private int version = 10000;
 
     /**
-     * <h2>设置版本号</h2>
+     * 设置版本号
      *
      * @param version 版本号
      * @return 当前实例
@@ -52,7 +52,7 @@ public class QuantumTaxRequest {
     }
 
     /**
-     * <h2>获取版本号</h2>
+     * 获取版本号
      *
      * @return 版本号
      */
@@ -61,12 +61,12 @@ public class QuantumTaxRequest {
     }
 
     /**
-     * <h2>请求毫秒时间戳</h2>
+     * 请求毫秒时间戳
      */
     private long timestamp = System.currentTimeMillis();
 
     /**
-     * <h2>设置请求毫秒时间戳</h2>
+     * 设置请求毫秒时间戳
      *
      * @param timestamp 请求毫秒时间戳
      * @return 当前实例
@@ -77,7 +77,7 @@ public class QuantumTaxRequest {
     }
 
     /**
-     * <h2>获取请求毫秒时间戳</h2>
+     * 获取请求毫秒时间戳
      *
      * @return 请求毫秒时间戳
      */
@@ -86,12 +86,12 @@ public class QuantumTaxRequest {
     }
 
     /**
-     * <h2>加密后的业务数据</h2>
+     * 加密后的业务数据
      */
     private String content;
 
     /**
-     * <h2>设置加密后的业务数据</h2>
+     * 设置加密后的业务数据
      *
      * @param content 加密后的业务数据
      * @return 当前实例
@@ -102,7 +102,7 @@ public class QuantumTaxRequest {
     }
 
     /**
-     * <h2>获取加密后的业务数据</h2>
+     * 获取加密后的业务数据
      *
      * @return 加密后的业务数据
      */
@@ -111,12 +111,12 @@ public class QuantumTaxRequest {
     }
 
     /**
-     * <h2>Nonce</h2>
+     * Nonce
      */
     private String nonce = RandomUtil.randomString();
 
     /**
-     * <h2>设置Nonce</h2>
+     * 设置Nonce
      *
      * @param nonce Nonce
      * @return 当前实例
@@ -127,7 +127,7 @@ public class QuantumTaxRequest {
     }
 
     /**
-     * <h2>获取Nonce</h2>
+     * 获取Nonce
      *
      * @return Nonce
      */
@@ -136,12 +136,12 @@ public class QuantumTaxRequest {
     }
 
     /**
-     * <h2>签名字符串</h2>
+     * 签名字符串
      */
     private String signature;
 
     /**
-     * <h2>设置签名字符串</h2>
+     * 设置签名字符串
      *
      * @param signature 签名字符串
      * @return 当前实例
@@ -152,7 +152,7 @@ public class QuantumTaxRequest {
     }
 
     /**
-     * <h2>获取签名字符串</h2>
+     * 获取签名字符串
      *
      * @return 签名字符串
      */
@@ -161,7 +161,7 @@ public class QuantumTaxRequest {
     }
 
     /**
-     * <h2>签名</h2>
+     * 签名
      *
      * @param appSecret AppSecret
      * @return 当前实例

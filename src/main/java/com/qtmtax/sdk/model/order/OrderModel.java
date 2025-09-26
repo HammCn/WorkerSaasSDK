@@ -7,34 +7,49 @@ package com.qtmtax.sdk.model.order;
  */
 public class OrderModel {
     /**
-     * <h2>订单创建时间</h2>
+     * 订单创建时间
      */
     private Long createTime;
 
     /**
-     * <h2>外部订单号</h2>
+     * 外部订单号
      */
     private String outerTradeNo;
 
     /**
-     * <h2>订单号</h2>
+     * 订单号
      */
     private String tradeNo;
 
     /**
-     * <h2>状态</h2>
+     * 状态
      */
     private String state;
 
     /**
-     * <h2>订单创建时间</h2>
+     * 支付账号
+     */
+    private String payAccount;
+
+    /**
+     * 任务ID
+     */
+    private Long taskId;
+
+    /**
+     * 订单金额
+     */
+    private Double balance;
+
+    /**
+     * 订单创建时间
      */
     public Long getCreateTime() {
         return createTime;
     }
 
     /**
-     * <h2>订单创建时间</h2>
+     * 订单创建时间
      *
      * @param createTime 订单创建时间
      */
@@ -43,14 +58,14 @@ public class OrderModel {
     }
 
     /**
-     * <h2>外部订单号</h2>
+     * 外部订单号
      */
     public String getOuterTradeNo() {
         return outerTradeNo;
     }
 
     /**
-     * <h2>外部订单号</h2>
+     * 外部订单号
      *
      * @param outerTradeNo 外部订单号
      */
@@ -59,14 +74,14 @@ public class OrderModel {
     }
 
     /**
-     * <h2>订单号</h2>
+     * 订单号
      */
     public String getTradeNo() {
         return tradeNo;
     }
 
     /**
-     * <h2>订单号</h2>
+     * 订单号
      *
      * @param tradeNo 订单号
      */
@@ -75,16 +90,64 @@ public class OrderModel {
     }
 
     /**
-     * <h2>状态</h2>
+     * 状态
      */
     public void setState(String state) {
         this.state = state;
     }
 
     /**
-     * <h2>状态</h2>
+     * 状态
      */
     public String getState() {
         return state;
+    }
+
+    /**
+     * 任务ID
+     *
+     * @param taskId 任务ID
+     */
+    public void setTaskId(Long taskId) {
+        this.taskId = taskId;
+    }
+
+    /**
+     * 任务ID
+     */
+    public Long getTaskId() {
+        return taskId;
+    }
+
+    /**
+     * 订单金额
+     *
+     * @param balance 订单金额
+     */
+    public void setBalance(Double balance) {
+        this.balance = balance;
+    }
+
+    /**
+     * 订单金额
+     */
+    public Double getBalance() {
+        return balance;
+    }
+
+    /**
+     * 支付账号
+     *
+     * @param payAccount 支付账号
+     */
+    public void setPayAccount(String payAccount) {
+        this.payAccount = payAccount;
+    }
+
+    /**
+     * 支付账号
+     */
+    public String getPayAccount() {
+        return payAccount;
     }
 }

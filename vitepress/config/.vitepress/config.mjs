@@ -22,24 +22,23 @@ export default withMermaid({
                 ]
             },
             {
-                text: '授权园区',
+                text: '企业API',
                 items: [
                     {text: '获取被授权园区列表', link: '/enterprise/getList'},
                     {text: '获取被授权园区信息', link: '/enterprise/query'},
-                ]
-            },
-            {
-                text: '任务相关',
-                items: [
                     {text: '获取可用任务列表', link: '/task/getList'},
-                ]
-            },
-            {
-                text: '订单相关',
-                items: [
                     {text: '创建支付订单', link: '/order/create'},
                     {text: '查询支付订单', link: '/order/query'},
                     {text: '订单回调通知', link: '/order/notify'},
+                ]
+            },
+            {
+                text: '园区API',
+                items: [
+                    {text: '查看我园区下的企业', link: '/park/getList'},
+                    {text: '查看我园区企业的详情', link: '/park/query'},
+                    {text: '查看订单列表', link: '/park/order/getParkOrderList'},
+                    {text: '查看订单详情', link: '/park/order/getParkOrderDetail'},
                 ]
             }
         ],

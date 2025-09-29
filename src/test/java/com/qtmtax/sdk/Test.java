@@ -14,7 +14,7 @@ public class Test {
         QtmTaxConfig qtmTaxConfig = QtmTaxConfig.create()
                 .setAppKey(Config.APP_KEY)
                 .setAppSecret(Config.APP_SECRET)
-                .setGateway(QtmTaxConstant.GATEWAY_SANDBOX)
+                .setGateway(Config.GATEWAY)
                 .setArithmetic(QuantumTaxArithmetic.AES);
         QTM_TAX_CLIENT = QtmTaxClient.create(qtmTaxConfig);
     }

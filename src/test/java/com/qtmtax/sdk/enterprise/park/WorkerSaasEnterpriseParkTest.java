@@ -1,11 +1,12 @@
 package com.qtmtax.sdk.enterprise.park;
 
+import com.qtmtax.sdk.Config;
 import com.qtmtax.sdk.common.base.QtmTaxClient;
 import com.qtmtax.sdk.common.base.QtmTaxConfig;
 import com.qtmtax.sdk.common.base.QtmTaxConstant;
 import com.qtmtax.sdk.common.base.QuantumTaxJson;
 import com.qtmtax.sdk.common.enums.QuantumTaxArithmetic;
-import com.qtmtax.sdk.model.enterprise.EnterpriseParkModel;
+import com.qtmtax.sdk.model.enterprise.park.EnterpriseParkModel;
 import com.qtmtax.sdk.model.enterprise.park.list.EnterpriseParkGetListRequest;
 import com.qtmtax.sdk.model.enterprise.park.list.EnterpriseParkGetListResponse;
 import com.qtmtax.sdk.model.enterprise.park.query.EnterpriseParkQueryRequest;
@@ -33,9 +34,9 @@ public class WorkerSaasEnterpriseParkTest {
 
     static {
         QtmTaxConfig qtmTaxConfig = QtmTaxConfig.create()
-                .setAppKey("NO9pn4tMn3aIvwX95CyxFlFzexXmzOFp")
-                .setAppSecret("xNBf8CcKJW1GImCiVt1LHWFb68hDOLcARrNA5rTCACY=")
-                .setGateway(QtmTaxConstant.GATEWAY_SANDBOX)
+                .setAppKey(Config.APP_KEY)
+                .setAppSecret(Config.APP_SECRET)
+                .setGateway(Config.GATEWAY)
                 .setArithmetic(QuantumTaxArithmetic.AES);
         client = QtmTaxClient.create(qtmTaxConfig);
     }

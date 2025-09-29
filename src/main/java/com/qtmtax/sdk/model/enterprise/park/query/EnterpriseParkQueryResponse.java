@@ -2,7 +2,7 @@ package com.qtmtax.sdk.model.enterprise.park.query;
 
 import com.qtmtax.sdk.common.base.AbstractResponse;
 import com.qtmtax.sdk.common.base.QuantumTaxJson;
-import com.qtmtax.sdk.model.enterprise.EnterpriseParkModel;
+import com.qtmtax.sdk.model.enterprise.park.EnterpriseParkModel;
 
 /**
  * <h1>查询企业园区详情响应模型</h1>

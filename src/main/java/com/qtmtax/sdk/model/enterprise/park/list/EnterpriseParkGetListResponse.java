@@ -2,7 +2,7 @@ package com.qtmtax.sdk.model.enterprise.park.list;
 
 import com.qtmtax.sdk.common.base.AbstractResponse;
 import com.qtmtax.sdk.common.base.QuantumTaxJson;
-import com.qtmtax.sdk.model.enterprise.EnterpriseParkModel;
+import com.qtmtax.sdk.model.enterprise.park.EnterpriseParkModel;
 
 import java.util.List;
 

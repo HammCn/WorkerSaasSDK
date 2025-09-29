@@ -1,5 +1,6 @@
 package com.qtmtax.sdk.order;
 
+import com.qtmtax.sdk.Config;
 import com.qtmtax.sdk.common.base.QtmTaxClient;
 import com.qtmtax.sdk.common.base.QtmTaxConfig;
 import com.qtmtax.sdk.common.base.QtmTaxConstant;
@@ -32,9 +33,9 @@ public class WorkerSaasOrderTest {
 
     static {
         QtmTaxConfig qtmTaxConfig = QtmTaxConfig.create()
-                .setAppKey("NO9pn4tMn3aIvwX95CyxFlFzexXmzOFp")
-                .setAppSecret("xNBf8CcKJW1GImCiVt1LHWFb68hDOLcARrNA5rTCACY=")
-                .setGateway(QtmTaxConstant.GATEWAY_SANDBOX)
+                .setAppKey(Config.APP_KEY)
+                .setAppSecret(Config.APP_SECRET)
+                .setGateway(Config.GATEWAY)
                 .setArithmetic(QuantumTaxArithmetic.AES);
         QTM_TAX_CLIENT = QtmTaxClient.create(qtmTaxConfig);
     }

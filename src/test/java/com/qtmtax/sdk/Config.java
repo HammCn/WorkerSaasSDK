@@ -1,7 +1,11 @@
 package com.qtmtax.sdk;
 
-public class Config {
-    public static final String APP_KEY = "NO9pn4tMn3aIvwX95CyxFlFzexXmzOFp";
+import com.qtmtax.sdk.common.base.QtmTaxConstant;
 
-    public static final String APP_SECRET = "xNBf8CcKJW1GImCiVt1LHWFb68hDOLcARrNA5rTCACY=";
+public class Config {
+    public static final String APP_KEY = "UhRHQsunIPHkbez7lBx2xkzCCamBcwTA";
+
+    public static final String APP_SECRET = "dkTvxeRvXlBBu49adEznlkfupsmFKHK9RIk3486IW1M=";
+
+    public static final String GATEWAY = QtmTaxConstant.GATEWAY_LOCAL;
 }

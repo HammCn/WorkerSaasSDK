@@ -1,6 +1,6 @@
 package com.qtmtax.sdk.model.task;
 
-import com.qtmtax.sdk.model.enterprise.EnterpriseParkModel;
+import com.qtmtax.sdk.model.enterprise.park.EnterpriseParkModel;
 
 /**
  * <h1>任务模型</h1>

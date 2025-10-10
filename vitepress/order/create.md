@@ -3,7 +3,6 @@
 > [!IMPORTANT]
 > 创建订单需要先创建任务并审核通过，订单要求用户姓名、手机号二要素匹配。如用户未完成签约和报名任务，将无法进行发放。
 
-
 ## 接口地址
 
 > order/create
@@ -19,7 +18,7 @@
 | idCardType   | false | Integer | 证件类型，目前固定传入 `1`，身份证         |
 | payAccount   | true  | String  | 支付账号(支持手机号/邮箱/银行卡)          |
 | reason       | true  | String  | 付款描述(真实场景描述,4-10位)          |
-| bizAccount   | true  | String  | 业务账号                        |
+| bizAccount   | true  | String  | 业务账号(您系统的用户唯一索引)            |
 | balance      | true  | Double  | 支付金额 (单位元，最多两位小数，0.1-50000) |
 | taskId       | true  | Long    | 任务ID (需任务通过审核)              |
 

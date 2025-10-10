@@ -28,7 +28,7 @@ export default withMermaid({
                     {text: '获取被授权园区列表', link: '/enterprise/getList'},
                     {text: '获取被授权园区信息', link: '/enterprise/query'},
                     {text: '获取可用任务列表', link: '/task/getList'},
-                    {text: '任务派单', link: '/task/push'},
+                    {text: '上报签约并派单', link: '/task/push'},
                     {text: '创建支付订单', link: '/order/create'},
                     {text: '查询支付订单', link: '/order/query'},
                     {text: '订单回调通知', link: '/order/notify'},

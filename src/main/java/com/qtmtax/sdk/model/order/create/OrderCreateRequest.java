@@ -16,7 +16,7 @@ public class OrderCreateRequest extends AbstractRequest<OrderCreateResponse> {
      */
     @Override
     protected String getApiUrl() {
-        return "order/create";
+        return "order/calc";
     }
 
     /**

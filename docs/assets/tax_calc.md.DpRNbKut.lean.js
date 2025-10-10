@@ -1,0 +1,1 @@
+import{_ as a,c as d,o as e,a1 as r}from"./chunks/framework.Be0ANwcD.js";const _=JSON.parse('{"title":"税额预算","description":"","frontmatter":{},"headers":[],"relativePath":"tax/calc.md","filePath":"tax/calc.md"}'),l={name:"tax/calc.md"};function o(c,t,i,h,n,s){return e(),d("div",null,[...t[0]||(t[0]=[r("",8)])])}const p=a(l,[["render",o]]);export{_ as __pageData,p as default};

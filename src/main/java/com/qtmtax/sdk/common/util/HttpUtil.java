@@ -4,18 +4,12 @@ import com.qtmtax.sdk.common.enums.QuantumTaxErrorCode;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpPost;
-import org.apache.http.conn.ssl.NoopHostnameVerifier;
-import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
-import org.apache.http.conn.ssl.TrustStrategy;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
-import org.apache.http.ssl.SSLContextBuilder;
 import org.apache.http.util.EntityUtils;
 
-import javax.net.ssl.SSLContext;
 import java.io.IOException;
-import java.security.cert.X509Certificate;
 import java.util.Objects;
 
 /**
@@ -29,29 +23,10 @@ public class HttpUtil {
      */
     public static final String APPLICATION_JSON = "application/json";
 
-    private static CloseableHttpClient createHttpClient() {
-        try {
-            // 创建信任所有证书的SSL上下文
-            SSLContext sslContext = SSLContextBuilder.create()
-                    .loadTrustMaterial((TrustStrategy) (chain, authType) -> {
-                        return true;
-                    })
-                    .build();
-
-            // 创建SSL连接工厂
-            SSLConnectionSocketFactory sslSocketFactory = new SSLConnectionSocketFactory(
-                    sslContext,
-                    NoopHostnameVerifier.INSTANCE
-            );
-
-            // 构建HttpClient
-            return HttpClients.custom()
-                    .setSSLSocketFactory(sslSocketFactory)
-                    .build();
-        } catch (Exception e) {
-            throw new RuntimeException("创建HttpClient失败", e);
-        }
-    }
+    /**
+     * HTTP客户端
+     */
+    private static final CloseableHttpClient HTTP_CLIENT = HttpClients.createDefault();
 
     /**
      * 发起Post请求
@@ -66,8 +41,7 @@ public class HttpUtil {
             StringEntity entity = new StringEntity(json);
             entity.setContentType(APPLICATION_JSON);
             httpPost.setEntity(entity);
-
-            try (CloseableHttpResponse httpResponse = createHttpClient().execute(httpPost)) {
+            try (CloseableHttpResponse httpResponse = HTTP_CLIENT.execute(httpPost)) {
                 if (httpResponse.getStatusLine().getStatusCode() == QuantumTaxErrorCode.SUCCESS.getCode()) {
                     HttpEntity response = httpResponse.getEntity();
                     if (Objects.nonNull(response)) {
@@ -82,5 +56,10 @@ public class HttpUtil {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    @Override
+    protected void finalize() throws Throwable {
+        HTTP_CLIENT.close();
     }
 }

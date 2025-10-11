@@ -13,17 +13,9 @@
 
 ## 响应参数(列表)
 
-| 参数名称         | 类型     | 描述   |
-|--------------|--------|------|
-| id           | Long   | 授权ID |
-| serviceRatio | Double | 服务费率 |
-| balance      | Double | 当前余额 |
-| park         | Park   | 园区信息 |
-
-## 园区基本信息
-
-| 参数名称 | 类型     | 描述     |
-|------|--------|--------|
-| name | String | 园区名称   |
-| code | String | 统一信用代码 |
-
+| 参数名称         | 类型                       | 描述   |
+|--------------|--------------------------|------|
+| id           | Long                     | 授权ID |
+| serviceRatio | Double                   | 服务费率 |
+| balance      | Double                   | 当前余额 |
+| park         | [Park](../model/park.md) | 园区信息 |

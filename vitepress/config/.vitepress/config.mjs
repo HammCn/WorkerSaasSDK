@@ -42,7 +42,19 @@ export default withMermaid({
                     {text: '查看订单列表', link: '/park/order/getParkOrderList'},
                     {text: '查看订单详情', link: '/park/order/getParkOrderDetail'},
                 ]
-            }
+            },
+            {
+                text: '数据模型',
+                items: [
+                    {text: '订单', link: '/model/order'},
+                    {text: '企业', link: '/model/enterprise'},
+                    {text: '园区', link: '/model/park'},
+                    {text: '可用授权园区', link: '/model/enterprisePark'},
+                    {text: '附件', link: '/model/asset'},
+                    {text: '分页', link: '/model/page'},
+                    {text: '排序', link: '/model/sort'},
+                ]
+            },
         ],
     }
 })

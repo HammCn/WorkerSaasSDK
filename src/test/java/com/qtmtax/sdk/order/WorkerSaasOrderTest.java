@@ -3,7 +3,6 @@ package com.qtmtax.sdk.order;
 import com.qtmtax.sdk.Config;
 import com.qtmtax.sdk.common.base.QtmTaxClient;
 import com.qtmtax.sdk.common.base.QtmTaxConfig;
-import com.qtmtax.sdk.common.base.QtmTaxConstant;
 import com.qtmtax.sdk.common.base.QuantumTaxJson;
 import com.qtmtax.sdk.common.enums.QuantumTaxArithmetic;
 import com.qtmtax.sdk.enums.IdCardType;
@@ -56,7 +55,7 @@ public class WorkerSaasOrderTest {
     private static String create() {
         // 设置参数
         OrderCreateRequest request = new OrderCreateRequest()
-                .setOuterTradeNo("D202410010000000001")
+                .setOuterTradeNo("D202410010000000002")
                 .setBizAccount("13888888888")
                 .setTaskId(1L)
                 .setBalance(1D)
@@ -65,7 +64,7 @@ public class WorkerSaasOrderTest {
                 .setReason("服务费")
                 .setPayAccount("17666666666")
                 .setIdCardType(IdCardType.CHINA_ID_CARD)
-                .setIdCard("500240199110030157");
+                .setIdCard("500000000000");
         log.info(String.format("创建订单请求数据: %s", QuantumTaxJson.toString(request)));
         OrderCreateResponse response = QTM_TAX_CLIENT.request(request);
         log.info(String.format("创建订单响应数据: %s", QuantumTaxJson.toString(response)));

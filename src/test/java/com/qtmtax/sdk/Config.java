@@ -3,9 +3,9 @@ package com.qtmtax.sdk;
 import com.qtmtax.sdk.common.base.QtmTaxConstant;
 
 public class Config {
-    public static final String APP_KEY = "KMUsLgSy07JFSPO3slWkWEpJ6oulRoKK";
+    public static final String APP_KEY = "bIKpqW0qEHIzlDExliECKNpxf7Ymi6wN";
 
-    public static final String APP_SECRET = "QIfcv5QB1DDXzT9HOOP+CO43TlSQphe9rfKU7OM+PEg=";
+    public static final String APP_SECRET = "OXzgKOXCgbQTXYSFlpT3SgavqO6mYa6Gb6ENhL3nAG8=";
 
-    public static final String GATEWAY = QtmTaxConstant.GATEWAY_LOCAL;
+    public static final String GATEWAY = QtmTaxConstant.GATEWAY_SANDBOX;
 }

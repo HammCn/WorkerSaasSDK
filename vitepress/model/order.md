@@ -15,7 +15,6 @@
 | tax            | Double                        | 个人所得税，`单位元，精确到分`      |
 | vatTax         | Double                        | 增值税，`单位元，精确到分 `       |
 | additionalTax  | Double                        | 附加税，`单位元，精确到分 `       |
-| additionalTax  | Double                        | 附加税，`单位元，精确到分 `       |
 | errorMessage   | String                        | 错误信息                  |
 | payTime        | Long                          | 付款时间 (`毫秒时间戳`)        |
 | serviceBalance | Double                        | 服务费，`单位元，精确到分  `      |

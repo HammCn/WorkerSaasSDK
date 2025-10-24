@@ -91,6 +91,13 @@
             </plugin>
         </plugins>
     </build>
+    <url>https://github.com/HammCn/WorkerSaasSdk</url>
+    <scm>
+        <connection>scm:git:git://github.com/HammCn/WorkerSaasSdk.git</connection>
+        <developerConnection>scm:git:git://github.com/HammCn/WorkerSaasSdk.git</developerConnection>
+        <url>https://github.com/HammCn/WorkerSaasSdk</url>
+        <tag>HEAD</tag>
+    </scm>
     <licenses>
         <license>
             <name>The MIT License</name>
@@ -98,4 +105,18 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
+    <developers>
+        <developer>
+            <id>HammCn</id>
+            <name>Hamm</name>
+            <email>admin@hamm.cn</email>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>+8</timezone>
+            <properties>
+                <picUrl>https://avatars.githubusercontent.com/u/16929327</picUrl>
+            </properties>
+        </developer>
+    </developers>
 </project>

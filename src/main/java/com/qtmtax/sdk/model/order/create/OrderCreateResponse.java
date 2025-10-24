@@ -1,0 +1,47 @@
+package com.qtmtax.sdk.model.order.create;
+
+import com.qtmtax.sdk.common.base.AbstractResponse;
+import com.qtmtax.sdk.common.base.QtmTaxJson;
+import com.qtmtax.sdk.model.order.OrderModel;
+
+/**
+ * <h1>创建发放订单响应模型</h1>
+ *
+ * @author Hamm.cn
+ */
+public class OrderCreateResponse extends AbstractResponse<OrderCreateResponse> {
+    /**
+     * 订单模型
+     */
+    private OrderModel order;
+
+    /**
+     * 解析数据
+     *
+     * @param data 解密后的data数据
+     */
+    @Override
+    public OrderCreateResponse parseData(String data) {
+        return this.setOrder(QtmTaxJson.parse(data, OrderModel.class));
+    }
+
+    /**
+     * 获取订单模型
+     *
+     * @return 订单模型
+     */
+    public OrderModel getOrder() {
+        return order;
+    }
+
+    /**
+     * 设置订单模型
+     *
+     * @param order 订单模型
+     * @return 当前实例
+     */
+    public OrderCreateResponse setOrder(OrderModel order) {
+        this.order = order;
+        return this;
+    }
+}
